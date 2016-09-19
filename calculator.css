@@ -1,0 +1,22 @@
+caption{
+	font-size: 100px;
+	text-align: left;
+}
+h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+    font-family: "DINWebBold",sans-serif;
+    font-weight: normal;
+    margin-top: .9em;
+}
+form {
+    margin: 1em 0;
+    border: 1px solid #d2e1e6;
+    border-radius: 3px 3px 3px 3px;
+    padding: .8em;
+    background-color: #e9eff1;
+}
+a {
+    color: #a6192e;
+    text-decoration: none;
+}
