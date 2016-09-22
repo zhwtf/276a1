@@ -4,15 +4,93 @@
 <link rel="stylesheet" type= "text/css" href="calculator.css">
 <title>Grade Calculator</title>
 </head>
-
 <body>
-<h1>
-Grade Calculator
-</h1>
-<form>
-<div>
-	
+<div id="page_content">
+	<section class="header"></section>
+	<section class="main">
+		<h1>
+		Grade Calculator
+		</h1>
+		<form>
+		<h2>
+			Activities
+		</h2>
+		<p>
+			Give grades to the numeric activities:
+		</p>
+		<table style="width:100%">
+			<tr>
+				<th>Name</th>
+				<th>Short Name</th>
+				<th>Weight</th>
+				<th>Grade</th>
+				<th>Percent</th>
+			</tr>
+			<tr>
+				<td>Activity 1</td>
+				<td>A1</td>
+				<td>
+					<input type="text" name="A1_weight">
+				</td>
+				<td>
+					<input type="text" name="A1_grade">/<br>
+					<input type="text" name="A1_total_grade">
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>Activity 2</td>
+				<td>A2</td>
+				<td>
+					<input type="text" name="A2_weight">
+				</td>
+				<td>
+					<input type="text" name="A2_grade">/<br>
+					<input type="text" name="A2_total_grade">
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>Activity 3</td>
+				<td>A3</td>
+				<td>
+					<input type="text" name="A3_weight">
+				</td>
+				<td>
+					<input type="text" name="A3_grade">/
+					<br>
+					<input type="text" name="A3_total_grade">
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>Activity 4</td>
+				<td>A4</td>
+				<td>
+					<input type="text" name="A4_weight">
+				</td>
+				<td>
+					<input type="text" name="A4_grade">/
+					<br>
+					<input type="text" name="A4_total_grade">
+				</td>
+				<td>
+				</td>
+			</tr>
+		</table>
+		<h2>Result</h2>
+		<p id ="two_button">
+			<button type="button" oneclick="weight()">WEIGHTED
+			</button>
+			<button type="button" oneclick="mean()">MEAN
+			</button>
+		</p>
+		</form>
+	</section>
+	<section class="footer"></section>
 </div>
-</form>
 </body>
 </html>
