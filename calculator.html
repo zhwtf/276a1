@@ -6,8 +6,8 @@
 </head>
 <body>
 <div id="page_content">
-	<section class="header"></section>
-	<section class="main">
+	<div class="header"></div>
+	<div class="main">
 		<h1>
 		Grade Calculator
 		</h1>
@@ -33,10 +33,11 @@
 					<input type="text" name="A1_weight">
 				</td>
 				<td>
-					<input type="text" name="A1_grade">/<br>
-					<input type="text" name="A1_total_grade">
+					<input type="text" name="A1_grade" onkeyup="calculate_percent()" onkeydown="calculate_percent()">/<br>
+					<input type="text" name="A1_total_grade" onkeyup="calculate_percent()" onkeydown="calculate_percent()">
 				</td>
 				<td>
+					<p id = "A1_percent"></p>
 				</td>
 			</tr>
 			<tr>
@@ -50,6 +51,7 @@
 					<input type="text" name="A2_total_grade">
 				</td>
 				<td>
+					<p></p>
 				</td>
 			</tr>
 			<tr>
@@ -64,6 +66,7 @@
 					<input type="text" name="A3_total_grade">
 				</td>
 				<td>
+					<p></p>
 				</td>
 			</tr>
 			<tr>
@@ -78,19 +81,22 @@
 					<input type="text" name="A4_total_grade">
 				</td>
 				<td>
+					<p></p>
 				</td>
 			</tr>
 		</table>
 		<h2>Result</h2>
 		<p id ="two_button">
-			<button type="button" oneclick="weight()">WEIGHTED
+			<button type="button" onclick="weight()">WEIGHTED
 			</button>
-			<button type="button" oneclick="mean()">MEAN
+			<button type="button" onclick="mean()">MEAN
 			</button>
 		</p>
 		</form>
-	</section>
-	<section class="footer"></section>
+	</div>
+	<div class="footer"></div>
 </div>
 </body>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="calculator.js"></script>
 </html>

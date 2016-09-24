@@ -1,11 +1,8 @@
 body {
-    font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
-    line-height: 1.5em;
     background: #a6192e;
 }
 #page_content {
     float: left;
-    padding: 0;
     background-color: #3d3935;
     box-shadow: 0 0 15px rgba(50,50,50,0.75);
 		margin: 20px;
@@ -34,32 +31,13 @@ h2{
 		display:block;
 		font-size: 1.5em;
 		font-weight: bold;
-		font-
 }
 form {
     border: 1px solid #d2e1e6;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
     padding: .8em;
     background-color: #e9eff1;
 		overflow: hidden;
-}
-
-p button {
-    background-color: #A6192E;
-    border-color: #7A1024;
-    border-radius: 5px;
-    border-style: none none solid;
-    border-width: medium medium 3px;
-    color: #FFFFFF;
-    font-family: "DINWebMedium",sans-serif;
-    font-size: 1em;
-    font-weight: normal;
-    margin: 1em 0 10px;
-    padding: 0.25em 1em;
-}
-
-#two_button{
-	float: right;
 }
 
 table, tr, td, th {
@@ -81,5 +59,21 @@ input {
 	padding: 8px;
 	width:40%;
   font-size: 15px;
-	margin: 3px;
+	margin: 5%;
+}
+
+p button {
+    background-color: #A6192E;
+    border-radius: 5px;
+    border-style: hidden;
+    color: #FFFFFF;
+    font-family: "DINWebMedium",sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 1em 0 10px;
+    padding: 0.5em 1em;
+}
+
+#two_button{
+	float: right;
 }
