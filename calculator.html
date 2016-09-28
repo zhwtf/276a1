@@ -84,11 +84,15 @@
 			</tr>
 		</table>
 		<h2>Result</h2>
-		<p id ="two_button">
-			<button type="button" onclick="weight()">WEIGHTED
-			</button>
-			<button type="button" onclick="mean()">MEAN
-			</button>
+		<p>
+		<span id = "right_side">
+			<button type="button" id ="weighted_button">WEIGHTED</button>
+			<button type="button" id = "mean_button">MEAN</button>
+		</span>
+		<span id = "left_side">
+		<p class="resultStarter">Mean of grades: <span id = "mean_result"></span></p>
+		<p class="resultStarter">Weighted grades: <span  id = "weight_result"></span></p>
+		</span>
 		</p>
 		</form>
 	</div>

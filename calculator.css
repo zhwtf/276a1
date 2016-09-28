@@ -74,6 +74,23 @@ p button {
     padding: 0.5em 1em;
 }
 
-#two_button{
+#right_side{
 	float: right;
 }
+
+#left_side{
+  float: left;
+  display: inline;
+}
+
+.resultStarter{
+  font-size: 1.5em;
+  color:  #888888;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  font-family: "dinWeb",sans-serif;
+  font-weight: normal;
+  letter-spacing: .05em;
+}
+
