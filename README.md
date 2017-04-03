@@ -16,7 +16,8 @@ A1 70/100, A2 20/80, A3 10/10:
 ```
 ```
 Weighted grades 
-Each grade item can be given a weight, which is then used in the arithmetic mean aggregation to influence the importance of each item in the overall mean. In simple terms, the category "total" will be equal to the sum of the scores in each grade item, these scores being multiplied by the grade items' weights, and that sum being finally divided by the sum of the weights, as shown in this example. 
+Each grade item can be given a weight, which is then used in the arithmetic mean aggregation to influence the importance of each item in the overall mean. 
+In simple terms, the category "total" will be equal to the sum of the scores in each grade item, these scores being multiplied by the grade items' weights, and that sum being finally divided by the sum of the weights, as shown in this example. 
 A1 70/100 weight 10, A2 20/80 weight 5, A3 10/10 
 weight 3: (0.7*10 + 0.25*5 + 1.0*3)/18 = 0.625 -> 62.5/100 
 ```
